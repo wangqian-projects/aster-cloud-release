@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.wangqian-projects</groupId>
+		<artifactId>aster-cloud-build</artifactId>
+		<version>0.0.1</version>
+	</parent>
+
+	<artifactId>aster-cloud-release</artifactId>
+	<version>0.0.1</version>
+	<packaging>pom</packaging>
+	<name>Aster Cloud Starter Build</name>
+	<description>Aster Cloud Starter Build</description>
+	<url>https://github.com/wangqian-projects/aster-cloud-build</url>
+
+	<modules>
+		<module>aster-cloud-dependencies</module>
+		<module>aster-cloud-starter-parent</module>
+	</modules>
+
+	<developers>
+		<developer>
+			<id>wangqian</id>
+			<name>Wang Qian</name>
+			<email>925548289@qq.com</email>
+			<roles>
+				<role>lead</role>
+			</roles>
+		</developer>
+	</developers>
+
+</project>
