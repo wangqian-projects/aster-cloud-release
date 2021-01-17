@@ -16,7 +16,6 @@
 
     <properties>
         <aster-cloud-build.version>0.0.1</aster-cloud-build.version>
-        <aster-cloud-commons.version>0.0.1</aster-cloud-commons.version>
     </properties>
 
     <dependencyManagement>
@@ -24,7 +23,14 @@
             <dependency>
                 <groupId>com.github.wangqian-projects</groupId>
                 <artifactId>aster-cloud-commons-dependencies</artifactId>
-                <version>${aster-cloud-commons.version}</version>
+                <version>${aster-cloud-build.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.github.wangqian-projects</groupId>
+                <artifactId>aster-cloud-starters-dependencies</artifactId>
+                <version>${aster-cloud-build.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
