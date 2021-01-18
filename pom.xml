@@ -7,13 +7,14 @@
 		<groupId>com.github.wangqian-projects</groupId>
 		<artifactId>aster-cloud-build</artifactId>
 		<version>0.0.1</version>
+		<relativePath/>
 	</parent>
 
 	<artifactId>aster-cloud-release</artifactId>
 	<version>0.0.1</version>
 	<packaging>pom</packaging>
-	<name>Aster Cloud Starter Build</name>
-	<description>Aster Cloud Starter Build</description>
+	<name>Aster Cloud Release Starter Build</name>
+	<description>Aster Cloud Release Starter Build</description>
 	<url>https://github.com/wangqian-projects/aster-cloud-build</url>
 
 	<modules>
