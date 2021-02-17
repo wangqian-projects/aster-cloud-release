@@ -63,6 +63,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>com.github.wangqian-projects</groupId>
+                <artifactId>aster-cloud-tenant-dependencies</artifactId>
+                <version>${aster-cloud-build.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
